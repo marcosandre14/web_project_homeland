@@ -1,0 +1,16 @@
+/* --- FOOTER DESKTOP --- */
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: 92px auto 24px auto;
+}
+
+.footer__copyright {
+  width: 166px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 0 auto;
+}
