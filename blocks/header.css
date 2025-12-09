@@ -16,3 +16,29 @@
   width: 100%;
   height: 100%;
 }
+
+/* --- 1. TABLET (max-width: 1023px) --- */
+@media (max-width: 1023px) and (min-width: 544px) {
+  /*  HEADER  */
+  .header {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+  }
+}
+
+/* --- MOBILE (até 543px) --- */
+@media (max-width: 543px) {
+  /* LOGO */
+  .logo {
+    width: 188px;
+    height: 52px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

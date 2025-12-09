@@ -29,3 +29,13 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* --- 1. TABLET (max-width: 1023px) --- */
+@media (max-width: 1023px) and (min-width: 544px) {
+  /*  CONTAINER GERAL  */
+  .page {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
